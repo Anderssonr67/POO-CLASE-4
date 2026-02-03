@@ -18,7 +18,7 @@ class GYM{
             estado="Obesidad";
         }
 
-        console.log("El IMC es de: "+imc+"y su estado es: "+estado);
+        console.log("El IMC es: "+imc+"y su estado es: "+estado);
 //          Interpretacion (Adultos):
 // Bajo peso: Menos de 18.5.
 // Normal: 18.5 - 24.9.
@@ -45,10 +45,11 @@ class Conversor{
         //°f=(K-273.15)/5+32
     }
     public KC():void {
-
+        //c°273.15
     }
 }
 let aire = new Conversor(45);
+aire.CF();
 
 
 
@@ -63,8 +64,14 @@ constructor(falta:number, nam:string){
 
 public seleccion() :void{
      if(this.falta==1){
+         console.log('${this.sara} puede presente el examen. ');
+     } else {
+         console.log('${this.nombre} No puede presentar el examen. ');
+     }
         
     }
 
 }
 }
+let alumno = nwe instituto(4, "Ander";
+alumno.seleccion();
